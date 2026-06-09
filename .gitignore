@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+*.pkl
+*.joblib
+*.h5
+
+# Node
+node_modules/
+dist/
+build/
+.next/
+
+# Env
+.env
+.env.local
+.env.production
+
+# Data
+ml/data/raw/*
+ml/data/processed/*
+!ml/data/raw/.gitkeep
+!ml/data/processed/.gitkeep
+
+# Models
+ml/models/saved/*
+!ml/models/saved/.gitkeep
+
+# Logs
+*.log
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/settings.json
