@@ -2,7 +2,6 @@ from fastapi import FastAPI, File, UploadFile, Form
 import numpy as np
 import pandas as pd
 import joblib
-import tensorflow as tf
 from PIL import Image
 import io
 import os
